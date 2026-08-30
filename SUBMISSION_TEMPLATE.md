@@ -3,8 +3,8 @@
 ## 1. วิธีเปิดโปรแกรม
 - ภาษา/เฟรมเวิร์ก:  Java , Java Swing
 - Entry point / คำสั่งเปิดโปรแกรม: 
-  javac src/**/*.java src/*.java
-  java -cp src Main
+  javac model/*.java view/*.java controller/*.java *.java
+  java Main
 - หมายเหตุที่จำเป็น (ถ้ามี): 
   สามารถคอมไพล์และรันบนเครื่องใดก็ได้ที่มี JDK ติดตั้งอยู่
   ข้อมูลตั้งต้น seed_data.json ถูกแปลงและรันผ่านคลาส DataSeeder.java ตามเงื่อนไขที่โจทย์อนุญาต
